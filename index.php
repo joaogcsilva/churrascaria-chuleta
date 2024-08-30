@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/estilo.css" class="css">
 <title>Chuleta Quente Churrascaria</title>
 </head>
-
 <body class="fundofixo">
     <!-- area de menu -->
     <?php include 'menu_publico.php'; ?>    
@@ -26,10 +25,10 @@
         <footer class="panel-footer" style="background: none;">
         <?php include 'rodape.php'; ?>
         <a name="contato"></a>
-        </footer>
-        
+        </footer>        
     </main>
 </body>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

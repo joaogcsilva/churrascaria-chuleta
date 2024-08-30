@@ -1,3 +1,37 @@
+<style>
+     /* Estilo adicional para a faixa */
+     .promo-banner {
+            background-color: #FF0000; /* Cor de fundo chamativa */
+            color: #212529; /* Cor do texto */
+            text-align: center;
+            padding: 15px;
+            font-size: 1.26em;
+            font-weight: bold;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .promo-banner a {
+            color: #fff; /* Cor do texto do botão */
+            text-decoration: none;
+        }
+        .promo-banner a.btn {
+            background-color: #28a745; /* Cor de fundo do botão */
+            border-color: #28a745;
+            color: #fff;
+        }
+        .promo-banner a.btn:hover {
+            background-color: #218838; /* Cor do botão ao passar o mouse */
+            border-color: #1e7e34;
+        }
+    </style>
+    <!-- Faixa de promoção -->
+    <div class="promo-banner">
+        <?php
+            echo "Reserve agora e aproveite 50% de desconto no rodízio! Além disso, ganhe 5% de desconto em todas as bebidas da sua mesa.";
+        ?>
+        <a href="pedido_reserva.php" class="btn btn-primary ml-3">Pedido de Reserva</a>
+    </div>
 <div class="row panel-footer fundo-rodape">
         <!-- area de localização -->
         <div class="col-sm-6 col-md-4">

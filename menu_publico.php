@@ -31,6 +31,9 @@ $rows_tipos = $lista_tipos->fetch_all(); //retornar todos na forma de matriz
                     </a>
                 </li>
                 <li>
+                <a href="pedido_reserva.php" style= "color: green">PEDIDO DE RESERVA</a>
+                </li>
+                <li>
                     <a href="index.php#destaques"> DESTAQUES </a>
                 </li>
                 <li>
